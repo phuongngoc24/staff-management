@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE & Editor Directories
+.idea/
+.vscode/
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+
+# Test Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
