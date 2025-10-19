@@ -1,8 +1,8 @@
 
 class Menu:
     def __init__(self):   
-        self.employee_service = EmployeeService() 
-        self.menu_handler = MenuHandler(self.employee_service)
+        # self.employee_service = EmployeeService() 
+        # self.menu_handler = MenuHandler(self.employee_service)
         self.choices = {
             "1": {"text": "Nhập thông tin nhân viên", "action": None },
             "2": {"text": "Xuất danh sách nhân viên", "action": None },
@@ -40,4 +40,7 @@ class Menu:
 
     def _exit_program(self):
         print("Cảm ơn bạn đã sử dụng chương trình. Tạm biệt!")
-        sys.exit(0)
+        exit()
+
+menu = Menu()
+menu.run()
